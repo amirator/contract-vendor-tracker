@@ -1,0 +1,38 @@
+# SAMPLE / DEMO DATA - fictional company 'Demo Gulf Holding Co.'; not real contracts, vendors or people
+contract_id,title,vendor_id,vendor_name,category,owner,owner_email,department,start_date,end_date,notice_days,auto_renew,annual_value_sar,status,renewal_decision
+CT-001,Pest control - all sites,V001,Coastal Cleaning Demo Co.,Facility services,Samir Douglas,samir.douglas@demo-gulf-holding.example,Finance,2025-12-26,2026-12-25,30,N,480000,Active,Pending
+CT-002,Laptop leasing and support,V002,Desert Cloud Demo LLC,IT and cloud,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,IT,2023-11-30,2026-11-28,30,Y,96000,Active,Pending
+CT-003,Manned guarding - HQ and warehouse,V003,Harbour Security Demo Co.,Security services,Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,2026-12-17,2027-12-16,60,Y,60000,Active,Pending
+CT-004,Stationery framework agreement,V004,Palm Print & Office Supplies Demo,Office supplies,Layla Hassan,layla.hassan@demo-gulf-holding.example,Facilities,2026-10-10,2028-10-08,60,Y,48000,Active,Pending
+CT-005,Courier and document delivery,V005,Red Line Logistics Demo Co.,Logistics,Samir Douglas,samir.douglas@demo-gulf-holding.example,Finance,2027-05-02,2028-04-30,90,N,18000,Active,Pending
+CT-006,External legal counsel retainer,V006,Summit Legal Advisors Demo,Legal services,Samir Douglas,samir.douglas@demo-gulf-holding.example,Finance,2026-06-25,2027-06-24,60,N,240000,Active,Pending
+CT-007,Pantry and meeting catering,V007,Oasis Catering Demo Co.,Catering,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,IT,2027-10-18,2028-10-16,90,N,24000,Active,Pending
+CT-008,Lift maintenance - HQ tower,V008,Bright Lift Maintenance Demo,Facility services,Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,2026-10-08,2028-10-06,30,Y,360000,Active,Pending
+CT-009,Executive vehicle lease,V009,Gulf Fleet Leasing Demo Co.,Vehicle leasing,Layla Hassan,layla.hassan@demo-gulf-holding.example,Facilities,2027-03-10,2028-03-08,60,N,75000,Active,Pending
+CT-010,Audit-management software licences,V010,Clearview Audit Software Demo,IT and cloud,Reem Abbas,reem.abbas@demo-gulf-holding.example,HR,2026-02-02,2027-02-01,30,Y,48000,Active,Pending
+CT-011,Corporate travel management,V011,Northgate Travel Demo Co.,Travel management,Reem Abbas,reem.abbas@demo-gulf-holding.example,HR,2026-01-14,2027-01-13,30,N,480000,Under renewal,Re-tender
+CT-012,HVAC preventive maintenance,V012,Keystone HVAC Demo Co.,Facility services,Samir Douglas,samir.douglas@demo-gulf-holding.example,Finance,2027-07-13,2028-07-11,90,N,360000,Active,Pending
+CT-013,Mobile and data plans,V013,Atlas Telecom Demo Co.,Telecom,Dana Farah,dana.farah@demo-gulf-holding.example,Office of the COO,2027-02-09,2028-02-08,30,N,240000,Active,Pending
+CT-014,Medical insurance brokerage,V014,Meridian Insurance Brokers Demo,Insurance,Samir Douglas,samir.douglas@demo-gulf-holding.example,Finance,2023-12-08,2026-12-06,30,N,36000,Under renewal,Renew
+CT-015,Leadership training framework,V015,Pioneer Training Demo Academy,Training,Layla Hassan,layla.hassan@demo-gulf-holding.example,Facilities,2024-09-29,2027-09-28,60,N,24000,Active,Pending
+CT-016,Pest control - Riyadh branch,V001,Coastal Cleaning Demo Co.,Facility services,Layla Hassan,layla.hassan@demo-gulf-holding.example,Facilities,2026-02-11,2027-02-10,60,N,75000,Active,Pending
+CT-017,Laptop leasing and support - Riyadh branch,V002,Desert Cloud Demo LLC,IT and cloud,Layla Hassan,layla.hassan@demo-gulf-holding.example,Facilities,2026-01-22,2027-01-21,30,N,150000,Active,Terminate
+CT-018,Manned guarding - Riyadh branch,V003,Harbour Security Demo Co.,Security services,Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,2026-06-08,2028-06-06,90,N,60000,Active,Pending
+CT-019,Stationery framework agreement - Riyadh branch,V004,Palm Print & Office Supplies Demo,Office supplies,Layla Hassan,layla.hassan@demo-gulf-holding.example,Facilities,2024-12-23,2026-12-22,30,N,120000,Active,Pending
+CT-020,Courier and document delivery - Riyadh branch,V005,Red Line Logistics Demo Co.,Logistics,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,IT,2026-04-17,2027-04-16,90,Y,240000,Active,Pending
+CT-021,External legal counsel retainer - Riyadh branch,V006,Summit Legal Advisors Demo,Legal services,Reem Abbas,reem.abbas@demo-gulf-holding.example,HR,2025-08-05,2028-08-03,90,Y,75000,Active,Pending
+CT-022,Pantry and meeting catering - Riyadh branch,V007,Oasis Catering Demo Co.,Catering,Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,2025-12-20,2026-12-19,60,Y,480000,Active,Pending
+CT-023,Lift maintenance - Riyadh branch,V008,Bright Lift Maintenance Demo,Facility services,Layla Hassan,layla.hassan@demo-gulf-holding.example,Facilities,2023-11-21,2026-11-19,60,Y,48000,Active,Pending
+CT-024,Executive vehicle lease - Riyadh branch,V009,Gulf Fleet Leasing Demo Co.,Vehicle leasing,Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,2025-11-11,2026-11-10,30,N,150000,Active,Pending
+CT-025,Audit-management software licences - Riyadh branch,V010,Clearview Audit Software Demo,IT and cloud,Dana Farah,dana.farah@demo-gulf-holding.example,Office of the COO,2024-01-21,2027-01-19,90,Y,360000,Active,Renew
+CT-026,Corporate travel management - Riyadh branch,V011,Northgate Travel Demo Co.,Travel management,Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,2024-01-27,2027-01-25,60,N,360000,Active,Pending
+CT-027,HVAC preventive maintenance - Riyadh branch,V012,Keystone HVAC Demo Co.,Facility services,Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,2026-01-07,2027-01-06,60,Y,150000,Active,Pending
+CT-028,Mobile and data plans - Riyadh branch,V013,Atlas Telecom Demo Co.,Telecom,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,IT,2026-02-21,2027-02-20,30,N,360000,Active,Pending
+CT-029,Medical insurance brokerage - Riyadh branch,V014,Meridian Insurance Brokers Demo,Insurance,Noura Saleh,noura.saleh@demo-gulf-holding.example,Procurement,2024-02-20,2027-02-18,90,Y,96000,Active,Pending
+CT-030,Leadership training framework - Riyadh branch,V015,Pioneer Training Demo Academy,Training,Samir Douglas,samir.douglas@demo-gulf-holding.example,Finance,2027-04-09,2028-04-07,90,N,60000,Active,Pending
+CT-031,Office cleaning - HQ,V001,Coastal Cleaning Demo Co.,Facility services,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,IT,2026-05-11,2028-05-09,60,Y,60000,Active,Pending
+CT-032,Laptop leasing and support - Dammam office,V002,Desert Cloud Demo LLC,IT and cloud,Dana Farah,dana.farah@demo-gulf-holding.example,Office of the COO,2025-08-05,2028-08-03,90,Y,96000,Active,Pending
+CT-033,Manned guarding - Dammam office,V003,Harbour Security Demo Co.,Security services,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,IT,2025-02-17,2028-02-16,60,N,75000,Active,Pending
+CT-034,Stationery framework agreement - Dammam office,V004,Palm Print & Office Supplies Demo,Office supplies,Layla Hassan,layla.hassan@demo-gulf-holding.example,Facilities,2025-05-04,2028-05-02,30,N,150000,Active,Pending
+CT-035,Courier and document delivery - Dammam office,V005,Red Line Logistics Demo Co.,Logistics,Dana Farah,dana.farah@demo-gulf-holding.example,Office of the COO,2025-10-14,2026-10-13,30,N,48000,Terminated,Terminate
+CT-036,External legal counsel retainer - Dammam office,V006,Summit Legal Advisors Demo,Legal services,Layla Hassan,layla.hassan@demo-gulf-holding.example,Facilities,2027-07-04,2028-07-02,30,Y,120000,Active,Pending

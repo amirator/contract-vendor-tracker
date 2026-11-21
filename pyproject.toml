@@ -1,0 +1,11 @@
+[project]
+name = "contract-vendor-tracker"
+version = "1.0.0"
+description = "Contract renewals, vendor-invoice follow-up, audit-request log and reminder drafts (sample data)"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = ["ignore:.*extension is not supported:UserWarning"]

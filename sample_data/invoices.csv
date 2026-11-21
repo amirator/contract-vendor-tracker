@@ -1,0 +1,87 @@
+# SAMPLE / DEMO DATA - fictional company 'Demo Gulf Holding Co.'; not real contracts, vendors or people
+invoice_id,vendor_id,vendor_name,contract_id,po_number,invoice_date,received_date,due_date,amount_sar,status,approver,approver_email,paid_date,last_chased,chase_count
+INV-26001,V002,Desert Cloud Demo LLC,CT-002,PO-5287,2026-08-10,2026-08-13,2026-09-24,10867.50,Paid,Samir Douglas,samir.douglas@demo-gulf-holding.example,2026-09-23,,0
+INV-26002,V012,Keystone HVAC Demo Co.,CT-027,PO-5075,2026-11-19,2026-11-24,2027-01-03,19630.50,Pending approval,Noura Saleh,noura.saleh@demo-gulf-holding.example,,,0
+INV-26003,V004,Palm Print & Office Supplies Demo,CT-004,PO-5036,2026-09-22,2026-09-27,2026-10-22,3208.50,Paid,Samir Douglas,samir.douglas@demo-gulf-holding.example,2026-10-16,,0
+INV-26004,V008,Bright Lift Maintenance Demo,CT-023,PO-4894,2026-10-26,2026-10-30,2026-12-10,4887.50,Paid,Dana Farah,dana.farah@demo-gulf-holding.example,2026-11-21,,0
+INV-26005,V010,Clearview Audit Software Demo,CT-025,PO-5178,2026-07-15,2026-07-17,2026-08-14,42090.00,Disputed,Noura Saleh,noura.saleh@demo-gulf-holding.example,,2026-11-20,3
+INV-26006,V006,Summit Legal Advisors Demo,CT-036,PO-5055,2026-08-29,2026-08-31,2026-10-28,9004.50,Paid,Samir Douglas,samir.douglas@demo-gulf-holding.example,2026-10-26,,0
+INV-26007,V001,Coastal Cleaning Demo Co.,CT-031,PO-5360,2026-10-31,2026-11-02,2026-12-30,7797.00,Approved - awaiting payment,Samir Douglas,samir.douglas@demo-gulf-holding.example,,,0
+INV-26008,V012,Keystone HVAC Demo Co.,CT-012,PO-5174,2026-10-19,2026-10-22,2026-11-18,30107.00,Pending approval,Dana Farah,dana.farah@demo-gulf-holding.example,,,0
+INV-26009,V001,Coastal Cleaning Demo Co.,CT-001,PO-5264,2026-07-05,2026-07-06,2026-08-04,63307.50,Paid,Noura Saleh,noura.saleh@demo-gulf-holding.example,2026-08-23,,0
+INV-26010,V011,Northgate Travel Demo Co.,CT-026,PO-4706,2026-09-04,2026-09-09,2026-10-19,43585.00,Paid,Dana Farah,dana.farah@demo-gulf-holding.example,2026-11-05,,0
+INV-26011,V009,Gulf Fleet Leasing Demo Co.,CT-024,PO-4693,2026-10-22,2026-10-27,2026-12-06,17951.50,Awaiting vendor documents,Dana Farah,dana.farah@demo-gulf-holding.example,,,0
+INV-26012,V011,Northgate Travel Demo Co.,CT-011,PO-5315,2026-11-20,2026-11-23,2027-01-19,57546.00,Approved - awaiting payment,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,,,0
+INV-26013,V003,Harbour Security Demo Co.,CT-003,PO-5232,2026-10-12,2026-10-15,2026-11-11,5163.50,Paid,Dana Farah,dana.farah@demo-gulf-holding.example,2026-11-05,,0
+INV-26014,V007,Oasis Catering Demo Co.,CT-007,PO-4903,2026-09-08,2026-09-14,2026-10-08,2449.50,Paid,Samir Douglas,samir.douglas@demo-gulf-holding.example,2026-10-28,,0
+INV-26015,V010,Clearview Audit Software Demo,CT-025,PO-5061,2026-06-25,2026-06-26,2026-07-25,23057.50,Paid,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,2026-07-25,,0
+INV-26016,V002,Desert Cloud Demo LLC,CT-017,PO-4800,2026-10-23,2026-10-29,2026-12-07,15444.50,Paid,Noura Saleh,noura.saleh@demo-gulf-holding.example,2026-11-21,,0
+INV-26017,V004,Palm Print & Office Supplies Demo,CT-019,PO-5145,2026-08-03,2026-08-05,2026-09-17,15847.00,Paid,Noura Saleh,noura.saleh@demo-gulf-holding.example,2026-09-30,,0
+INV-26018,V001,Coastal Cleaning Demo Co.,CT-001,PO-5053,2026-08-23,2026-08-28,2026-10-22,33890.50,Approved - awaiting payment,Samir Douglas,samir.douglas@demo-gulf-holding.example,,2026-11-13,1
+INV-26019,V010,Clearview Audit Software Demo,CT-010,PO-4884,2026-10-26,2026-10-27,2026-11-25,4657.50,Paid,Samir Douglas,samir.douglas@demo-gulf-holding.example,2026-11-21,,0
+INV-26020,V005,Red Line Logistics Demo Co.,CT-005,PO-4609,2026-08-17,2026-08-19,2026-10-01,1771.00,Paid,Noura Saleh,noura.saleh@demo-gulf-holding.example,2026-09-25,,0
+INV-26021,V006,Summit Legal Advisors Demo,CT-021,PO-5164,2026-11-16,2026-11-20,2027-01-15,5819.00,Awaiting vendor documents,Dana Farah,dana.farah@demo-gulf-holding.example,,,0
+INV-26022,V008,Bright Lift Maintenance Demo,CT-008,PO-5349,2026-10-20,2026-10-21,2026-12-04,36029.50,Pending approval,Noura Saleh,noura.saleh@demo-gulf-holding.example,,,0
+INV-26023,V008,Bright Lift Maintenance Demo,CT-023,PO-4772,2026-08-24,2026-08-25,2026-10-23,3013.00,Disputed,Samir Douglas,samir.douglas@demo-gulf-holding.example,,2026-11-13,2
+INV-26024,V015,Pioneer Training Demo Academy,CT-015,PO-4681,2026-10-19,2026-10-24,2026-11-18,1989.50,Approved - awaiting payment,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,,2026-11-13,1
+INV-26025,V013,Atlas Telecom Demo Co.,CT-013,PO-4718,2026-10-29,2026-11-01,2026-12-28,21344.00,Pending approval,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,,,0
+INV-26026,V010,Clearview Audit Software Demo,CT-010,PO-4773,2026-10-01,2026-10-05,2026-11-30,3749.00,Paid,Samir Douglas,samir.douglas@demo-gulf-holding.example,2026-11-21,,0
+INV-26027,V014,Meridian Insurance Brokers Demo,CT-029,PO-5075,2026-10-11,2026-10-14,2026-11-25,7245.00,Approved - awaiting payment,Noura Saleh,noura.saleh@demo-gulf-holding.example,,,0
+INV-26028,V008,Bright Lift Maintenance Demo,CT-008,PO-5063,2026-10-22,2026-10-28,2026-12-06,31774.50,Pending approval,Samir Douglas,samir.douglas@demo-gulf-holding.example,,,0
+INV-26029,V007,Oasis Catering Demo Co.,CT-022,PO-5195,2026-08-08,2026-08-09,2026-10-07,52589.50,Paid,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,2026-10-26,,0
+INV-26030,V006,Summit Legal Advisors Demo,CT-036,PO-4511,2026-10-10,2026-10-13,2026-11-09,7452.00,Approved - awaiting payment,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,,2026-11-17,2
+INV-26031,V003,Harbour Security Demo Co.,CT-018,PO-5297,2026-09-30,2026-10-03,2026-11-14,6118.00,Paid,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,2026-11-21,,0
+INV-26032,V001,Coastal Cleaning Demo Co.,CT-031,PO-4835,2026-11-18,2026-11-20,2027-01-17,6382.50,Pending approval,Dana Farah,dana.farah@demo-gulf-holding.example,,,0
+INV-26033,V002,Desert Cloud Demo LLC,CT-002,PO-5210,2026-08-03,2026-08-06,2026-09-02,10108.50,Pending approval,Dana Farah,dana.farah@demo-gulf-holding.example,,2026-11-01,1
+INV-26034,V013,Atlas Telecom Demo Co.,CT-013,PO-5190,2026-09-18,2026-09-21,2026-10-18,31694.00,Awaiting vendor documents,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,,2026-11-01,1
+INV-26035,V011,Northgate Travel Demo Co.,CT-011,PO-4611,2026-10-25,2026-10-31,2026-12-09,46805.00,Pending approval,Noura Saleh,noura.saleh@demo-gulf-holding.example,,,0
+INV-26036,V002,Desert Cloud Demo LLC,CT-002,PO-4852,2026-10-02,2026-10-04,2026-11-16,9568.00,Pending approval,Noura Saleh,noura.saleh@demo-gulf-holding.example,,2026-11-13,1
+INV-26037,V008,Bright Lift Maintenance Demo,CT-023,PO-4757,2026-07-03,2026-07-06,2026-08-17,4554.00,Paid,Dana Farah,dana.farah@demo-gulf-holding.example,2026-09-02,,0
+INV-26038,V003,Harbour Security Demo Co.,CT-003,PO-5357,2026-09-29,2026-09-30,2026-11-28,5658.00,Paid,Dana Farah,dana.farah@demo-gulf-holding.example,2026-11-21,,0
+INV-26039,V015,Pioneer Training Demo Academy,CT-030,PO-5335,2026-10-19,2026-10-25,2026-11-18,5290.00,Pending approval,Noura Saleh,noura.saleh@demo-gulf-holding.example,,2026-11-20,1
+INV-26040,V012,Keystone HVAC Demo Co.,CT-027,PO-4593,2026-10-10,2026-10-16,2026-11-09,14478.50,Pending approval,Dana Farah,dana.farah@demo-gulf-holding.example,,2026-11-01,1
+INV-26041,V003,Harbour Security Demo Co.,CT-033,PO-5076,2026-10-09,2026-10-12,2026-11-23,6382.50,Approved - awaiting payment,Samir Douglas,samir.douglas@demo-gulf-holding.example,,,0
+INV-26042,V012,Keystone HVAC Demo Co.,CT-012,PO-4530,2026-08-01,2026-08-06,2026-09-15,44666.00,Approved - awaiting payment,Samir Douglas,samir.douglas@demo-gulf-holding.example,,2026-11-17,3
+INV-26043,V015,Pioneer Training Demo Academy,CT-030,PO-5295,2026-10-19,2026-10-24,2026-11-18,4036.50,Pending approval,Noura Saleh,noura.saleh@demo-gulf-holding.example,,,0
+INV-26044,V002,Desert Cloud Demo LLC,CT-032,PO-5131,2026-08-11,2026-08-14,2026-09-10,12857.00,Paid,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,2026-09-17,,0
+INV-26045,V006,Summit Legal Advisors Demo,CT-036,PO-4648,2026-09-25,2026-09-30,2026-10-25,11971.50,Paid,Noura Saleh,noura.saleh@demo-gulf-holding.example,2026-11-07,,0
+INV-26046,V009,Gulf Fleet Leasing Demo Co.,CT-009,PO-4774,2026-10-03,2026-10-06,2026-11-02,8855.00,Awaiting vendor documents,Noura Saleh,noura.saleh@demo-gulf-holding.example,,,0
+INV-26047,V006,Summit Legal Advisors Demo,CT-036,PO-4691,2026-10-01,2026-10-05,2026-11-15,8452.50,Paid,Samir Douglas,samir.douglas@demo-gulf-holding.example,2026-11-21,,0
+INV-26048,V010,Clearview Audit Software Demo,CT-010,PO-4727,2026-10-20,2026-10-25,2026-12-19,6279.00,Awaiting vendor documents,Dana Farah,dana.farah@demo-gulf-holding.example,,,0
+INV-26049,V003,Harbour Security Demo Co.,CT-033,PO-4833,2026-10-10,2026-10-14,2026-11-24,8222.50,Paid,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,2026-11-18,,0
+INV-26050,V010,Clearview Audit Software Demo,CT-010,PO-4837,2026-11-17,2026-11-18,2026-12-17,4059.50,Approved - awaiting payment,Dana Farah,dana.farah@demo-gulf-holding.example,,,0
+INV-26051,V002,Desert Cloud Demo LLC,CT-002,PO-5354,2026-11-15,2026-11-19,2026-12-15,10407.50,Pending approval,Noura Saleh,noura.saleh@demo-gulf-holding.example,,,0
+INV-26052,V011,Northgate Travel Demo Co.,CT-011,PO-4971,2026-10-20,2026-10-22,2026-11-19,41308.00,Pending approval,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,,2026-11-08,2
+INV-26053,V009,Gulf Fleet Leasing Demo Co.,CT-024,PO-4717,2026-08-15,2026-08-21,2026-09-14,17112.00,Paid,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,2026-09-06,,0
+INV-26054,V013,Atlas Telecom Demo Co.,CT-013,PO-4709,2026-08-23,2026-08-29,2026-09-22,26289.00,Pending approval,Noura Saleh,noura.saleh@demo-gulf-holding.example,,2026-11-17,1
+INV-26055,V013,Atlas Telecom Demo Co.,CT-028,PO-4795,2026-08-14,2026-08-15,2026-09-13,35799.50,Pending approval,Noura Saleh,noura.saleh@demo-gulf-holding.example,,2026-11-13,3
+INV-26056,V009,Gulf Fleet Leasing Demo Co.,CT-024,PO-4863,2026-10-31,2026-11-04,2026-12-30,14616.50,Paid,Dana Farah,dana.farah@demo-gulf-holding.example,2026-11-21,,0
+INV-26057,V002,Desert Cloud Demo LLC,CT-032,PO-4967,2026-11-11,2026-11-16,2026-12-11,7153.00,Pending approval,Dana Farah,dana.farah@demo-gulf-holding.example,,,0
+INV-26058,V010,Clearview Audit Software Demo,CT-025,PO-4973,2026-07-14,2026-07-19,2026-08-13,29704.50,Awaiting vendor documents,Dana Farah,dana.farah@demo-gulf-holding.example,,2026-11-20,3
+INV-26059,V015,Pioneer Training Demo Academy,CT-030,PO-4804,2026-10-18,2026-10-23,2026-12-02,7808.50,Pending approval,Dana Farah,dana.farah@demo-gulf-holding.example,,,0
+INV-26060,V003,Harbour Security Demo Co.,CT-003,PO-4612,2026-10-23,2026-10-24,2026-11-22,5876.50,Paid,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,2026-11-21,,0
+INV-26061,V010,Clearview Audit Software Demo,CT-025,PO-4528,2026-07-03,2026-07-08,2026-09-01,21309.50,Paid,Dana Farah,dana.farah@demo-gulf-holding.example,2026-08-26,,0
+INV-26062,V007,Oasis Catering Demo Co.,CT-007,PO-5267,2026-10-17,2026-10-20,2026-12-16,1414.50,Disputed,Samir Douglas,samir.douglas@demo-gulf-holding.example,,,0
+INV-26063,V005,Red Line Logistics Demo Co.,CT-005,PO-4748,2026-10-30,2026-11-05,2026-11-29,1242.00,Approved - awaiting payment,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,,,0
+INV-26064,V006,Summit Legal Advisors Demo,CT-021,PO-4929,2026-10-26,2026-10-28,2026-12-25,7268.00,Approved - awaiting payment,Dana Farah,dana.farah@demo-gulf-holding.example,,,0
+INV-26065,V003,Harbour Security Demo Co.,CT-003,PO-4617,2026-08-31,2026-09-05,2026-10-30,4301.00,Paid,Noura Saleh,noura.saleh@demo-gulf-holding.example,2026-11-13,,0
+INV-26066,V001,Coastal Cleaning Demo Co.,CT-031,PO-5248,2026-07-02,2026-07-07,2026-08-31,3530.50,Paid,Noura Saleh,noura.saleh@demo-gulf-holding.example,2026-09-02,,0
+INV-26067,V003,Harbour Security Demo Co.,CT-003,PO-5286,2026-09-28,2026-10-01,2026-11-27,4554.00,Paid,Dana Farah,dana.farah@demo-gulf-holding.example,2026-11-21,,0
+INV-26068,V013,Atlas Telecom Demo Co.,CT-028,PO-5326,2026-10-18,2026-10-20,2026-11-17,47012.00,Pending approval,Samir Douglas,samir.douglas@demo-gulf-holding.example,,2026-11-13,1
+INV-26069,V014,Meridian Insurance Brokers Demo,CT-014,PO-4506,2026-10-22,2026-10-26,2026-11-21,4301.00,Pending approval,Samir Douglas,samir.douglas@demo-gulf-holding.example,,2026-11-08,1
+INV-26070,V001,Coastal Cleaning Demo Co.,CT-016,PO-4587,2026-11-10,2026-11-15,2026-12-10,5842.00,Awaiting vendor documents,Dana Farah,dana.farah@demo-gulf-holding.example,,,0
+INV-26071,V002,Desert Cloud Demo LLC,CT-017,PO-5184,2026-10-03,2026-10-05,2026-11-02,16755.50,Pending approval,Samir Douglas,samir.douglas@demo-gulf-holding.example,,2026-11-01,1
+INV-26072,V003,Harbour Security Demo Co.,CT-003,PO-5380,2026-07-06,2026-07-11,2026-08-20,6348.00,Paid,Samir Douglas,samir.douglas@demo-gulf-holding.example,2026-09-09,,0
+INV-26073,V013,Atlas Telecom Demo Co.,CT-013,PO-4710,2026-10-21,2026-10-24,2026-12-20,15479.00,Paid,Samir Douglas,samir.douglas@demo-gulf-holding.example,2026-11-21,,0
+INV-26074,V001,Coastal Cleaning Demo Co.,CT-001,PO-5218,2026-11-18,2026-11-22,2027-01-02,61628.50,Approved - awaiting payment,Samir Douglas,samir.douglas@demo-gulf-holding.example,,,0
+INV-26075,V006,Summit Legal Advisors Demo,CT-036,PO-5055,2026-10-18,2026-10-23,2026-11-17,11868.00,Awaiting vendor documents,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,,,0
+INV-26076,V008,Bright Lift Maintenance Demo,CT-023,PO-5070,2026-10-22,2026-10-23,2026-11-21,3657.00,Approved - awaiting payment,Samir Douglas,samir.douglas@demo-gulf-holding.example,,2026-11-08,1
+INV-26077,V006,Summit Legal Advisors Demo,CT-006,PO-5017,2026-11-09,2026-11-11,2027-01-08,18158.50,Awaiting vendor documents,Noura Saleh,noura.saleh@demo-gulf-holding.example,,,0
+INV-26078,V007,Oasis Catering Demo Co.,CT-022,PO-4520,2026-08-23,2026-08-29,2026-10-22,51727.00,Paid,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,2026-10-14,,0
+INV-26079,V008,Bright Lift Maintenance Demo,CT-023,PO-5343,2026-11-12,2026-11-17,2026-12-12,5934.00,Pending approval,Noura Saleh,noura.saleh@demo-gulf-holding.example,,,0
+INV-26080,V001,Coastal Cleaning Demo Co.,CT-031,PO-4502,2026-08-12,2026-08-14,2026-09-11,5727.00,Paid,Samir Douglas,samir.douglas@demo-gulf-holding.example,2026-09-05,,0
+INV-26081,V010,Clearview Audit Software Demo,CT-025,PO-4865,2026-06-28,2026-07-04,2026-07-28,32257.50,Paid,Dana Farah,dana.farah@demo-gulf-holding.example,2026-08-03,,0
+INV-26082,V006,Summit Legal Advisors Demo,CT-006,PO-4812,2026-11-05,2026-11-06,2026-12-05,20746.00,Approved - awaiting payment,Noura Saleh,noura.saleh@demo-gulf-holding.example,,,0
+INV-26083,V012,Keystone HVAC Demo Co.,CT-012,PO-5232,2026-11-20,2026-11-21,2027-01-04,30153.00,Pending approval,Noura Saleh,noura.saleh@demo-gulf-holding.example,,,0
+INV-26084,V015,Pioneer Training Demo Academy,CT-030,PO-4570,2026-10-21,2026-10-23,2026-11-20,6244.50,Pending approval,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,,,0
+INV-26085,V009,Gulf Fleet Leasing Demo Co.,CT-009,PO-4521,2026-11-01,2026-11-03,2026-12-01,6658.50,Disputed,Dana Farah,dana.farah@demo-gulf-holding.example,,,0

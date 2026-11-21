@@ -1,0 +1,17 @@
+# SAMPLE / DEMO DATA - fictional company 'Demo Gulf Holding Co.'; not real contracts, vendors or people
+vendor_id,vendor_name,category,contact_name,contact_email,city
+V001,Coastal Cleaning Demo Co.,Facility services,Huda Rahman,accounts@coastal-cleaning.example,Jeddah
+V002,Desert Cloud Demo LLC,IT and cloud,Omar Siddiqui,accounts@desert-cloud.example,Dammam
+V003,Harbour Security Demo Co.,Security services,Faisal Qureshi,accounts@harbour-security.example,Jeddah
+V004,Palm Print & Office Supplies Demo,Office supplies,Mariam Yusuf,accounts@palm-print.example,Riyadh
+V005,Red Line Logistics Demo Co.,Logistics,Khalid Nasser,accounts@redline-logistics.example,Jeddah
+V006,Summit Legal Advisors Demo,Legal services,Rania Haddad,accounts@summit-legal.example,Jeddah
+V007,Oasis Catering Demo Co.,Catering,Yousef Karim,accounts@oasis-catering.example,Jeddah
+V008,Bright Lift Maintenance Demo,Facility services,Imran Shaikh,accounts@bright-lift.example,Riyadh
+V009,Gulf Fleet Leasing Demo Co.,Vehicle leasing,Nadia Farouk,accounts@gulf-fleet.example,Jeddah
+V010,Clearview Audit Software Demo,IT and cloud,Tariq Aziz,accounts@clearview-soft.example,Jeddah
+V011,Northgate Travel Demo Co.,Travel management,Salma Idris,accounts@northgate-travel.example,Jeddah
+V012,Keystone HVAC Demo Co.,Facility services,Bilal Hamdan,accounts@keystone-hvac.example,Dammam
+V013,Atlas Telecom Demo Co.,Telecom,Lina Saeed,accounts@atlas-telecom.example,Jeddah
+V014,Meridian Insurance Brokers Demo,Insurance,Adel Mansour,accounts@meridian-brokers.example,Jeddah
+V015,Pioneer Training Demo Academy,Training,Hana Jaber,accounts@pioneer-training.example,Jeddah

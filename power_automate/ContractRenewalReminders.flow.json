@@ -1,0 +1,128 @@
+{
+  "_readme": "DESIGN EXPORT - NOT DEPLOYED. Hand-written in the Logic Apps workflow definition language that Power Automate cloud flows use, in the same shape as a solution export's Workflows/*.json. It has not been imported into or run in Power Automate. Connection references and the file location are placeholders. Sample data only (fictional company).",
+  "properties": {
+    "connectionReferences": {
+      "shared_excelonlinebusiness": {
+        "runtimeSource": "invoker",
+        "connection": { "connectionReferenceLogicalName": "cvt_ExcelOnlineBusiness_PLACEHOLDER" },
+        "api": { "name": "shared_excelonlinebusiness" }
+      },
+      "shared_office365": {
+        "runtimeSource": "invoker",
+        "connection": { "connectionReferenceLogicalName": "cvt_Office365Outlook_PLACEHOLDER" },
+        "api": { "name": "shared_office365" }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": { "defaultValue": {}, "type": "Object" },
+        "$authentication": { "defaultValue": {}, "type": "SecureObject" },
+        "DryRun": {
+          "defaultValue": true,
+          "type": "Bool",
+          "metadata": { "description": "true = only log what would be sent (default). Set to false only after testing." }
+        },
+        "AlertWindowDays": { "defaultValue": 90, "type": "Int" },
+        "EscalationEmail": { "defaultValue": "procurement.head@demo-gulf-holding.example", "type": "String" }
+      },
+      "triggers": {
+        "Weekly_Sunday_0800": {
+          "type": "Recurrence",
+          "recurrence": {
+            "frequency": "Week",
+            "interval": 1,
+            "timeZone": "Arab Standard Time",
+            "schedule": { "weekDays": ["Sunday"], "hours": ["8"], "minutes": [0] }
+          }
+        }
+      },
+      "actions": {
+        "List_contracts": {
+          "runAfter": {},
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_excelonlinebusiness",
+              "operationId": "GetItems",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_excelonlinebusiness"
+            },
+            "parameters": {
+              "source": "sites/PLACEHOLDER.sharepoint.com,PLACEHOLDER-SITE-ID",
+              "drive": "PLACEHOLDER-DRIVE-ID",
+              "file": "/Shared Documents/Contracts/contract_vendor_tracker.xlsx",
+              "table": "tblContracts",
+              "$filter": "Decision eq 'Pending'"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        },
+        "Filter_alert_window": {
+          "runAfter": { "List_contracts": ["Succeeded"] },
+          "type": "Query",
+          "inputs": {
+            "from": "@body('List_contracts')?['value']",
+            "where": "@and(not(equals(item()?['Status'], 'Terminated')), lessOrEquals(int(item()?['Days to expiry']), parameters('AlertWindowDays')))"
+          }
+        },
+        "For_each_contract": {
+          "runAfter": { "Filter_alert_window": ["Succeeded"] },
+          "type": "Foreach",
+          "foreach": "@body('Filter_alert_window')",
+          "runtimeConfiguration": { "concurrency": { "repetitions": 1 } },
+          "actions": {
+            "Compose_email_body": {
+              "runAfter": {},
+              "type": "Compose",
+              "inputs": "<p>Dear @{item()?['Owner']},</p><p>Contract <b>@{item()?['Contract']}</b> (@{item()?['Title']}, @{item()?['Vendor']}) ends in @{item()?['Days to expiry']} days. Notice deadline: @{item()?['Notice deadline']}. Status: @{item()?['RAG']} @{item()?['Notice flag']}.</p><p>Please reply with Renew, Re-tender or Terminate.</p><p>Office of the COO</p>"
+            },
+            "If_dry_run": {
+              "runAfter": { "Compose_email_body": ["Succeeded"] },
+              "type": "If",
+              "expression": { "equals": ["@parameters('DryRun')", true] },
+              "actions": {
+                "Log_would_send": {
+                  "runAfter": {},
+                  "type": "Compose",
+                  "inputs": {
+                    "dryRun": true,
+                    "to": "@item()?['Owner email']",
+                    "subject": "Contract renewal: @{item()?['Contract']} ends in @{item()?['Days to expiry']} days",
+                    "body": "@outputs('Compose_email_body')"
+                  }
+                }
+              },
+              "else": {
+                "actions": {
+                  "Send_an_email_V2": {
+                    "runAfter": {},
+                    "type": "OpenApiConnection",
+                    "inputs": {
+                      "host": {
+                        "connectionName": "shared_office365",
+                        "operationId": "SendEmailV2",
+                        "apiId": "/providers/Microsoft.PowerApps/apis/shared_office365"
+                      },
+                      "parameters": {
+                        "emailMessage/To": "@item()?['Owner email']",
+                        "emailMessage/Cc": "@if(equals(item()?['RAG'], 'Red'), parameters('EscalationEmail'), '')",
+                        "emailMessage/Subject": "Contract renewal: @{item()?['Contract']} ends in @{item()?['Days to expiry']} days",
+                        "emailMessage/Body": "@outputs('Compose_email_body')",
+                        "emailMessage/Importance": "@if(equals(item()?['RAG'], 'Red'), 'High', 'Normal')"
+                      },
+                      "authentication": "@parameters('$authentication')"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

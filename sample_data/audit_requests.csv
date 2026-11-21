@@ -1,0 +1,32 @@
+# SAMPLE / DEMO DATA - fictional company 'Demo Gulf Holding Co.'; not real contracts, vendors or people
+request_id,audit,requested_by,item,owner,owner_email,department,priority,requested_date,due_date,status,submitted_date
+AR-001,Internal audit - procurement review,Internal Audit (Demo Gulf Holding),Duplicate-invoice check results,Dana Farah,dana.farah@demo-gulf-holding.example,Office of the COO,Medium,2026-10-23,2026-11-13,Open,
+AR-002,External audit FY2026 - interim,Demo Audit Partners (fictional),Sample of 25 paid invoices with POs and GRNs,Dana Farah,dana.farah@demo-gulf-holding.example,Office of the COO,Medium,2026-10-28,2026-11-16,In progress,
+AR-003,Internal audit - procurement review,Internal Audit (Demo Gulf Holding),Single-source justifications,Layla Hassan,layla.hassan@demo-gulf-holding.example,Facilities,High,2026-11-01,2026-11-20,Open,
+AR-004,Internal audit - procurement review,Internal Audit (Demo Gulf Holding),Contract renewal approvals 2026,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,IT,Medium,2026-11-04,2026-11-21,In progress,
+AR-005,ZATCA e-invoicing readiness check (sample scope),Finance (Demo Gulf Holding),Credit and debit note sample,Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,Medium,2026-11-08,2026-11-22,In progress,
+AR-006,External audit FY2026 - interim,Demo Audit Partners (fictional),Board-approved delegation of authority,Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,Low,2026-11-10,2026-11-23,Open,
+AR-007,Internal audit - procurement review,Internal Audit (Demo Gulf Holding),Goods-received note sample (15 items),Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,IT,Medium,2026-11-12,2026-11-24,In progress,
+AR-008,External audit FY2026 - interim,Demo Audit Partners (fictional),Insurance policy schedule,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,IT,High,2026-11-13,2026-11-25,Open,
+AR-009,External audit FY2026 - interim,Demo Audit Partners (fictional),Payroll-to-GL reconciliation (Sep),Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,IT,Low,2026-11-15,2026-11-27,Open,
+AR-010,Internal audit - procurement review,Internal Audit (Demo Gulf Holding),Three-quote evidence under SAR 100k,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,IT,Medium,2026-11-17,2026-12-01,Open,
+AR-011,Internal audit - procurement review,Internal Audit (Demo Gulf Holding),Vendor performance evaluations,Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,Low,2026-11-18,2026-12-04,In progress,
+AR-012,ZATCA e-invoicing readiness check (sample scope),Finance (Demo Gulf Holding),VAT return reconciliations Q1-Q3,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,IT,Medium,2026-11-19,2026-12-06,Open,
+AR-013,External audit FY2026 - interim,Demo Audit Partners (fictional),Accruals schedule at 30 Sep,Reem Abbas,reem.abbas@demo-gulf-holding.example,HR,Low,2026-10-13,2026-11-02,Closed,2026-10-31
+AR-014,External audit FY2026 - interim,Demo Audit Partners (fictional),Vendor master change log Jan-Oct,Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,Medium,2026-10-15,2026-11-04,Closed,2026-11-06
+AR-015,ZATCA e-invoicing readiness check (sample scope),Finance (Demo Gulf Holding),Sample of 20 tax invoices with QR codes,Noura Saleh,noura.saleh@demo-gulf-holding.example,Procurement,Low,2026-10-17,2026-11-07,Closed,2026-11-07
+AR-016,Internal audit - procurement review,Internal Audit (Demo Gulf Holding),Contracts expired but still invoiced,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,IT,Medium,2026-10-20,2026-11-10,Closed,2026-11-13
+AR-017,External audit FY2026 - interim,Demo Audit Partners (fictional),Related-party transactions list,Reem Abbas,reem.abbas@demo-gulf-holding.example,HR,Medium,2026-10-22,2026-11-12,Closed,2026-11-11
+AR-018,External audit FY2026 - interim,Demo Audit Partners (fictional),Legal confirmation letters,Layla Hassan,layla.hassan@demo-gulf-holding.example,Facilities,Medium,2026-10-25,2026-11-14,Submitted,2026-11-14
+AR-019,ZATCA e-invoicing readiness check (sample scope),Finance (Demo Gulf Holding),Customer master data extract,Noura Saleh,noura.saleh@demo-gulf-holding.example,Procurement,Medium,2026-10-27,2026-11-17,Submitted,2026-11-19
+AR-020,External audit FY2026 - interim,Demo Audit Partners (fictional),Bank confirmation authority letters,Dana Farah,dana.farah@demo-gulf-holding.example,Office of the COO,Low,2026-10-29,2026-11-18,Closed,2026-11-16
+AR-021,Internal audit - procurement review,Internal Audit (Demo Gulf Holding),PO vs invoice price variance report,Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,Medium,2026-10-31,2026-11-19,Submitted,2026-11-18
+AR-022,ZATCA e-invoicing readiness check (sample scope),Finance (Demo Gulf Holding),E-invoicing integration test evidence,Samir Douglas,samir.douglas@demo-gulf-holding.example,Finance,Low,2026-11-02,2026-11-21,Submitted,2026-11-21
+AR-023,External audit FY2026 - interim,Demo Audit Partners (fictional),"Signed contracts above SAR 250k, with amendments",Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,Low,2026-10-08,2026-10-28,Closed,2026-10-27
+AR-024,ZATCA e-invoicing readiness check (sample scope),Finance (Demo Gulf Holding),List of invoicing systems,Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,High,2026-10-09,2026-10-29,Closed,2026-11-03
+AR-025,Internal audit - procurement review,Internal Audit (Demo Gulf Holding),Approved vendor list with onboarding dates,Reem Abbas,reem.abbas@demo-gulf-holding.example,HR,Medium,2026-11-07,2026-11-26,Submitted,2026-11-20
+AR-026,Internal audit - procurement review,Internal Audit (Demo Gulf Holding),Tender files for 3 largest awards,Yasir Malik,yasir.malik@demo-gulf-holding.example,Legal,High,2026-11-09,2026-11-28,Closed,2026-11-17
+AR-027,External audit FY2026 - interim,Demo Audit Partners (fictional),Fixed-asset additions listing,Dana Farah,dana.farah@demo-gulf-holding.example,Office of the COO,Medium,2026-10-18,2026-11-08,Closed,2026-11-08
+AR-028,External audit FY2026 - interim,Demo Audit Partners (fictional),Lease agreements register,Reem Abbas,reem.abbas@demo-gulf-holding.example,HR,Medium,2026-11-03,2026-11-15,Closed,2026-11-20
+AR-029,Internal audit - procurement review,Internal Audit (Demo Gulf Holding),Emergency purchase log,Dana Farah,dana.farah@demo-gulf-holding.example,Office of the COO,Low,2026-11-14,2026-11-29,Open,
+AR-030,Internal audit - procurement review,Internal Audit (Demo Gulf Holding),Conflict-of-interest declarations,Ahmed Karimi,ahmed.karimi@demo-gulf-holding.example,IT,Medium,2026-11-16,2026-12-02,In progress,

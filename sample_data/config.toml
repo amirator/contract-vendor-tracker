@@ -1,0 +1,31 @@
+# SAMPLE / DEMO DATA - settings for the fictional company 'Demo Gulf Holding Co.'
+# Change these to match your own office. Every threshold the rules use is here.
+
+[general]
+company = "Demo Gulf Holding Co."
+as_of = "2026-11-22"          # fixed so the demo is reproducible; use --as-of today for live use
+currency = "SAR"
+weekend = ["Fri", "Sat"]      # KSA work week is Sun-Thu; use ["Sat", "Sun"] for Mon-Fri offices
+
+[contracts]
+contract_bands = [30, 60, 90] # renewal / expiry alert bands, in days before the end date
+notice_warning_days = 30      # warn when the notice deadline (end date - notice period) is this close
+
+[invoices]
+ageing_buckets = [30, 60, 90] # days past due: 1-30, 31-60, 61-90, 90+
+due_soon_days = 5             # nudge approvers this many days before the payment due date
+chase_gap_days = 7            # do not chase the same invoice again within this many days
+escalate_after_days_overdue = 30
+escalate_after_chases = 2
+
+[audit]
+audit_due_soon_business_days = 3
+audit_escalate_days_overdue = 5
+
+[people]
+sender_name = "Office of the COO"
+sender_email = "coo.office@demo-gulf-holding.example"
+escalation_name = "Head of Procurement"
+escalation_email = "procurement.head@demo-gulf-holding.example"
+finance_ap_name = "Accounts Payable team"
+finance_ap_email = "ap@demo-gulf-holding.example"
